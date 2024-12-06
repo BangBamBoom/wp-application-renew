@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Letter</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 40px;
+            
+        }
+
+        .background-logo {
+            
+            position: absolute;
+            top: 270px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* 배경이 글 뒤로 가도록 설정 */
+            background-image: url('sju-log.png'); /* 로고 이미지 파일 경로 */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 300px; /* 로고 크기 조정 */
+            opacity: 0.1; 
+        }
+
+        .header {
+            display: flex;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .header img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .header .title h1{
+            font-size: 32px;
+            color:rgb(92, 117, 115);
+            font-weight: bold;
+            margin-bottom:1px;
+        }
+
+        .header .title p{
+            font-size:10px;
+            font-weight:bold;
+            text-align:left;
+            margin-top:1px;
+            margin-left:45px;
+        }
+        .header .top_left {
+            font-size: 12px;
+            text-align:right;
+            margin-top:40px;
+        }
+
+        .content {
+            
+            line-height: 1.6;
+        }
+
+        .subject {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .signature {
+            margin-top: 30px;
+        }
+
+        .signature p {
+            margin: 0;
+        }
+
+        .highlight {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-logo">
+
+    </div>
+    <div class="header">
+        <div class="title">
+            <h1><img src="sju-log.png" alt="Sejong University Logo">SEJONG UNIVERSITY</h1>
+            <p>DEPARTMENT OF INTELLIGENT MECHATRONICS ENGINEERING</p>
+        </div>
+        <p class="top_left">GUNJA 98,<br> GWANGJIN-GU, SEOUL 143-747,<br> REPUBLIC OF KOREA</p>
+    </div>
+
+    <div class="content">
+        <p>To: whom it may concern</p>
+        <p class="subject">Subject: Recommendation for Consideration for the Mathematics 2023 Best PhD Thesis Award</p>
+        <p>
+            I am writing to enthusiastically recommend Muhammad Zubair Islam for consideration for the Mathematics 2023 Best PhD Thesis Award. Having served as Zubair's PhD supervisor during their research journey, I have had the privilege of closely observing their outstanding contributions to the field of Artificial Intelligence, Machine Learning (ML), and specifically, Reinforcement Learning (RL).
+        </p>
+        <p>
+            Throughout their doctoral studies, they consistently demonstrated a profound understanding of complex mathematical concepts, behind ML models. Their inquisitive nature and willingness to explore novel approaches to challenging problems make them an extraordinary researcher in the field. One of the most remarkable aspects of Zubair’s work is its ability to combine theoretical rigor with practical applications. Their thesis, titled <span class="highlight"><b>“Improving QoS Provisioning Through Deep Reinforcement Learning to Realize Low-Latency Applications in Human-to-Machine Communications”</b></span>, showcases their ingenuity in developing innovative RL models and algorithms to solve real-world problems. Their work has the potential to bring about significant advancements in low-latency human-in-the-loop applications and has already garnered attention within the academic community.
+        </p>
+        <p>
+            During his graduate studies, he has gained significant experience working on projects related to next-generation emerging applications of Tactile IIoT and computer vision (Healthcare 5.0). His work has resulted in several publications in high-impact journals, specifically MDPI journals.
+        </p>
+        <p>
+            In case of any queries, please feel free to contact me. I am confident that Muhammad Zubair Islam will continue to make significant contributions to the field of AI and will be an exceptional recipient of the Mathematics 2023 Best PhD Thesis Award.
+        </p>
+        <p>Thank you.</p>
+
+        <div class="signature">
+            <p>Yours Sincerely,</p>
+            <p>Muhammad Zubair Islam</p>
+            <p>Department of AI and Robotics</p>
+            <p>Sejong University, Seoul, South Korea</p>
+        </div>
+    </div>
+</body>
+</html>
